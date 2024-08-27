@@ -9,8 +9,8 @@ let total_recebido = 0;
 
 let mensagem = "";
 
-total_recebido = (ganho_hora * hora_mes);
+ total_recebido = (ganho_hora * hora_mes);
 
-mensagem =  ` ${nome} tem a renda mensal de R$ ${total_recebido.toFixed(2)} `;
+ mensagem =  ` ${nome} tem a renda mensal de R$ ${total_recebido.toFixed(2)} `;
 
-alert(mensagem)
+alert(mensagem);
