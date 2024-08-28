@@ -1,9 +1,9 @@
 let nomeproduto1 = prompt("Informe o nome do primeiro produto");
 let valorproduto1 = parseFloat(prompt("Informe o valor do primeiro produto"));
-let nomeproduto2 = prompt("Informe o nome do primeiro produto");
-let valorproduto2 = parseFloat(prompt("Informe o valor do primeiro produto"));
-let nomeproduto3 = prompt("Informe o nome do primeiro produto");
-let valorproduto3 = parseFloat(prompt("Informe o valor do primeiro produto"));
+let nomeproduto2 = prompt("Informe o nome do segundo produto");
+let valorproduto2 = parseFloat(prompt("Informe o valor do segundo produto"));
+let nomeproduto3 = prompt("Informe o nome do terceiro produto");
+let valorproduto3 = parseFloat(prompt("Informe o valor do terceiro produto"));
 let menorproduto, menorvalor;
 
 let mensagem = "";
@@ -21,6 +21,6 @@ else if ((valorproduto3 < valorproduto1) && (valorproduto3 < valorproduto2)) {
     menorvalor = valorproduto3
 }
 
-mensagem = (`O produto ${menorproduto} é o mais em conta com o valor de R$ ${menorvalor}.`);
+mensagem = (`O produto ${menorproduto} é o mais em conta com o valor de R$ ${menorvalor}`);
 
 alert(mensagem);
