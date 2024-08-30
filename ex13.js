@@ -3,7 +3,6 @@ nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informaç
 
 let usuario = prompt("Informe o nome de usuário");
 let senha = prompt("Informe a senha");
-let mensagem = "";
 if (usuario == senha) {
     alert("A senha não pode ser a mesma que o usuário.");
     let = usuario = prompt("Informe o nome de usuário");
